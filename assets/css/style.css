@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+:root {
+--primary-color: #2d819b;
+
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+    
+}
+
+body {
+
+  
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+
+}
+
+.container {
+    max-width: 640px;
+    margin: 20px auto;
+    background: #ffff;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+
+}
+
+.formulario {
+    margin: 30px;
+    text-align: 10px;
+
+}
+
+.inputaltura {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+
+}
+.inputpeso {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.titulo {
+    margin: 10px;
+    text-align: center;
+}
+
+.botao {
+
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+    letter-spacing: 2px;
+    background-color: var(--primary-color);
+    color: floralwhite;
+    border: none;
+
+}
+
+.botao:hover{
+
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+    letter-spacing: 2px;
+    background-color: #124669;
+    color: floralwhite;
+    border: none;
+    cursor: pointer;
+
+}
+
+.separador {
+
+    margin: 10px;
+    border: 1px solid;
+}
+
+.referencia {
+    background-color: #ffff;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 450px;
+    font-size: 20px;
+    padding: 1px;
+    line-height: 10px;
+}
+
+.criador {
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-sizing: border-box;
+    max-width: 340px;
+    text-align: center;
+    margin-left: 1600px;
+}

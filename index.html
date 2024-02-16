@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="../modelo/assets/css/style.css">
+</head>
+
+<body>
+    <section class="container">
+
+        <h1>Calculadora de IMC</h1>
+        <p>Preencha os campos abaixo para calcular</p>
+        <form action="calculoimc" method="get" title="Calcular meu IMC" class="formulario">
+            <div>
+                <hr class="separador">
+          <label class="titulo">Peso:</label>
+            <input type="number" title="peso" class="inputpeso"> kgs</input>
+            <p></p>
+            <label class="titulo">Altura:</label>
+            <input type="number" title="altura" class="inputaltura"> cm</input></p>
+        <p><input type="button" value="Enviar" class="botao" onclick="calcularIMC()"> </p>
+    </div>
+        </form>
+        <p class="resultado"></p>
+        <p class="resultadotexto"></p>
+    </section>
+    <section class="referencia">
+        <h5>Referências Utilizadas</h5>
+        <p> menor que 18,5 - Abaixo do Peso</p>
+        <p> entre 18,5 e 24,9 - Peso Normal</p>
+        <p> entre 25 e 29,9 - Sobrepeso</p>
+        <p> entre 30 e 34,9 - Obesidade</p>
+        <p> entre 35 e 39,9 - Obesidade Grau II</p>
+        <p> maior que 40 - Obesidade Mórbida</p>
+    </section>
+    <p class="criador">Criado por Khayro Lessa</p>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
